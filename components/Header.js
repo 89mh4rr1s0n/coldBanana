@@ -10,7 +10,7 @@ const Header = () => {
         <div className='flex items-center justify-between p-3 bg-gray-50'>
             {/* left */}
             <h1 
-            className='p-2 cursor-pointer'
+            className='p-2 cursor-pointer font-bold'
             onClick={() => router.push("/")}
             >South Western Renewables</h1>
 

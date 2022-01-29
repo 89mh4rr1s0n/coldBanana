@@ -12,16 +12,11 @@ export default function Home() {
         </Head>
   
         <Header/>
-  
-      
-          
-            <main>
-              <Banner/>
-              
-              
-              
-              <Profile/>
-            </main>
+
+        <main className="max-w-screen-2xl mx-auto">
+          <Banner/>
+          <Profile/>
+        </main>
           
         
   

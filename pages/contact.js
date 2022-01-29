@@ -9,9 +9,11 @@ const contact = () => {
       
         <Header/>
         
-        <Banner/>
-
-        <ContactForm/>
+        <main className="max-w-screen-2xl mx-auto">
+          <Banner/>
+          <ContactForm/>
+        </main>
+        
     </div>
   </>)
 };
