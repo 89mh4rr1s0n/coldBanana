@@ -1,3 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply flex-grow flex-shrink rounded-l-md focus:outline-none 
+    border-2 rounded-sm px-2
+  }
+  .submit {
+    @apply my-5 py-1 px-8 m-auto 
+    bg-gradient-to-b from-lime-300 to-lime-400 
+    rounded-md active:from-lime-400
+  }
+  .button {
+    @apply hover:shadow-md active:scale-95 transition duration-100
+    border-2 border-gray-50 cursor-pointer p-2 hover:border-gray-300
+  }
+}
+
 html,
 body {
   padding: 0;
