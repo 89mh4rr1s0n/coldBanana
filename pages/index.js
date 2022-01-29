@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (<>
-      <div className='bg-gray-100 pb-10'>
+      <div className='bg-gradient-to-b from-gray-200 via-gray-200 to-white  pb-[300px]'>
         <Head>
           <title>Cold-Banana</title>
         </Head>

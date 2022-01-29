@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (<>
-    <div className='relative w-4/5 md:3/4 lg:w-2/4 m-auto bg-white -mt-16 z-50 rounded-lg'>
+    <div className='relative w-4/5 md:3/4 lg:w-2/4 m-auto bg-white -mt-16 lg:-mt-24 xl:lg:-mt-52 z-50 rounded-lg'>
         <div className='p-8 space-y-3 mb-10'>
             <h2 className='font-semibold text-center'>Have a Question for us?</h2>
             <h2 className='font-semibold text-center'>Please fill out the form below</h2>
